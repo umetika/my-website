@@ -1,4 +1,4 @@
-bady{
+body{
     font-family: sans-serif;
     max-width: 700px;
     margin: 40px auto;
@@ -7,4 +7,11 @@ bady{
     background-color: #f7f7f7;
     color: #333333;
     
+}
+
+h1 {
+    color: #2c6e49;
+    border-bottom: 2px solid #2c6e49;
+    padding-bottom: 8px;
+
 }
