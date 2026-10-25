@@ -1,0 +1,11 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  htmlhint:
+    runs-on: ubuntu-latest
+    steps:
+      -uses: actions/checkout@v4
+      -name: HTML をチェックする
+      run: npx --yes htmlhint "**/*.html"
