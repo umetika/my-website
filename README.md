@@ -10,6 +10,5 @@
 - style.css
 
 ##  公開URL
-
-(第5回で追記)
+https://umetika.github.io/my-website/
 
